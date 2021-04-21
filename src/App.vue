@@ -19,7 +19,7 @@
 }
 
 #nav {
-  text-align: left;
+  
   padding: 30px;
 }
 
@@ -123,9 +123,11 @@ table{
   width: 750px;
   border-collapse: collapse;
   border: 3px solid #44475C;
-  margin: 10px 10px 0 10px;
+  margin: auto;
 }
 
+
+ 
 
 table th {
   text-transform: uppercase;
@@ -260,6 +262,35 @@ h4.print_var_output_label + pre{
 }
 .msg_success b{ color: #0b0; }
 .msg_error   b{ color: #b00; }
-
+.textarea-field * {
+  vertical-align: middle;
+}
+   div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+      }
+	  
+	  .form{
+		  outline: 3px solid green;
+		  width: 200px;
+		  margin: auto;
+		  padding: 10px;
+	  }
+	  .btn{
+		  margin: 5px;
+	  }
+	  .checkbox-container{
+		  text-align: left;
+	  }
+	  .competency-form{
+		  text-align: left;
+		  margin: auto;
+		  width: 800px;
+		 
+	  }
 
 </style>
